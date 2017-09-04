@@ -427,11 +427,11 @@
 			<artifactId>activiti-spring</artifactId>
 			<version>${activiti.version}</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.eclipse</groupId>
 			<artifactId>draw2d</artifactId>
 			<version>3.2.100-v20070529</version>
-		</dependency>
+		</dependency>-->
 		
 		<!-- LOGGING begin -->
 		<dependency>
@@ -643,7 +643,6 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/test-core-1.0.jar</systemPath>
         </dependency> -->
-		
 	</dependencies>
 
 	<build>
@@ -723,7 +722,7 @@
 			</plugin>
 
 			<!-- jetty插件 -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>${jetty.version}</version>
@@ -743,7 +742,7 @@
 			        	</systemProperty>
 			        </systemProperties>
 				</configuration>
-			</plugin>
+			</plugin>-->
 			
 			<!-- resource插件 -->
 			<plugin>
@@ -857,7 +856,6 @@
 				</plugins>
 			</build>
 		</profile>
-		
 		<!-- 生成自定义代码 -->
 		<profile>
 			<id>code-gen</id>
