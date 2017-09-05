@@ -29,7 +29,7 @@
                 </property>
                 <property name="prettyPrint" value="false"/>
                 <property name="objectMapper">  
-                    <bean class="com.thinkgem.jeesite.common.mapper.JsonMapper"></bean>  
+                    <bean class="com.thinkgem.jeesite.common.mapper.JsonMapper"/>
                 </property> 
             </bean>
             <!-- 使用XML格式输出数据 -->
@@ -49,7 +49,7 @@
 				        </property>
 				    </bean>
 		        </constructor-arg>
-		        <property name="supportedMediaTypes" value="application/xml"></property>
+		        <property name="supportedMediaTypes" value="application/xml"/>
 			</bean>
 		</mvc:message-converters>
 	</mvc:annotation-driven>
